@@ -27,7 +27,7 @@ export default function Home() {
     <div className="d-flex flex-column bg-primary w-100 xh" style={{minHeight:'52.1vh'}}>
       <div className="bottom-0 bg-danger f-m" style={{height:'100%'}}>
        <div className="position-relative" style={{height:'100%'}}>
-       <img src="/kob.png" style={{height:'100%'}} className="position-absolute"/>
+       <img src="http://cdn.drite.in.th/kob.png" style={{height:'100%'}} className="position-absolute"/>
        <div className="position-absolute pt-2 pt-md-4 pt-xl-5 start-50 c">
         <h1 className="title">กลุ่มนักเขียนโปรแกรม</h1>
         <h1>{kob}</h1>
@@ -37,7 +37,7 @@ export default function Home() {
       </div>
       <div className="bottom-0 end-0 f-m " style={{height:'100%'}}>
         <div className="position-relative" style={{height:'100%'}}>
-        <img src="/arm.png" style={{height:'100%'}} className="position-absolute end-0"/>
+        <img src="http://cdn.drite.in.th/arm.png" style={{height:'100%'}} className="position-absolute end-0"/>
         <div className="position-absolute pt-2 pt-md-4 pt-xl-5 ps-xl-5 ps-3 start-0">
          <h1 className="title">หลังบ้านนายอาร์ม</h1>
          <h1>{arm}</h1>
